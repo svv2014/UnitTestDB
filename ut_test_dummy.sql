@@ -1,3 +1,4 @@
+-- this script related to opensource project UnitTestDB(https://github.com/svv2014/UnitTestDB/releases))
 /* For Java UT Test Runner
    $BEGIN
    ------------------------------------------------------
