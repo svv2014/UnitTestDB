@@ -5,7 +5,7 @@ UTDB (Unit Test Oracle DB PL/SQL)
 
 link to releases https://github.com/svv2014/UnitTestDB/releases
 
-This script is a unit dummy for unit test. 
+This script is a dummy for unit test. 
 It is good for test of any kind PL/SQL code like procedures,functions,views,DML,DDL,trigers etc.
 
 The concept is:
