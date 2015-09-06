@@ -5,10 +5,11 @@ UTDB (Unit Test Oracle DB PL/SQL)
 
 link to releases https://github.com/svv2014/UnitTestDB/releases
 
-This script itself unit test for test any kind of PL/SQL code like procedures,functions,views,DML,DDL,trigers etc.
+This script is a unit dummy for unit test. 
+It is good for test any kind of PL/SQL code like procedures,functions,views,DML,DDL,trigers etc.
 
-The concept current UT:
-  - be self sufficient
-  - must not contain code or call to functions/procedures with:  DDL,grant,commit
-  - if if contains 'DML' operations then in the end should contain 'rollback' operation.
-
+The concept is:
+  - test must be selfsuficient
+  - test can not contains code with DDL,grant,commit
+  - test can not call functions/procedures with DDL,grant,commit
+  - if test contains 'DML' operation then in the end must call 'rollback'
