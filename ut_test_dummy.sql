@@ -1,15 +1,4 @@
 -- this script related to opensource project UnitTestDB(https://github.com/svv2014/UnitTestDB/releases))
-/* For Java UT Test Runner
-   $BEGIN
-   ------------------------------------------------------
-   $Author:
-   ------------------------------------------------------
-   $PACKAGE=<tested package name>
-   $TEST_NAME=<Name tested functional>
-   $TEST_DESCRIPTION="<Description>   "
-
-   $END
-*/
 declare
   ------------------------------------------------------------------
   -- functional variables 
